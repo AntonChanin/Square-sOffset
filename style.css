@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.hello {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hello__btn--odd {
+  background-color: beige;
+}
+
+/*# sourceMappingURL=style.css.map */

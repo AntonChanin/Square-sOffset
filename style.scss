@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.hello {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__btn {
+      &--odd {
+          background-color: beige;
+      }
+  }
+}
